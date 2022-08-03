@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(17, 17, 65);
+    color: #fff;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+
+.container {
+    margin-top: 10%;
+}
+
+h1 {
+    font-size: 70px;
+    color: rgb(255, 255, 0);
+    font-weight: bold;
+}
+
+#winnerText {
+    color: rgb(255, 0, 0);
+    font-family: cursive;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-family: cursive;
+}
+
+.player-one {
+    margin-right: 20px;
+}
+
+.player-two {
+    margin-left: 20px;
+}
+
+.toggle-btn {
+    width: 150px !important;
+    font-size: 25px;
+    margin: 10px 0 20px 0;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+footer {
+    font-family: cursive;
+}
+
+@media (max-width: 720px) {
+    img {
+        width: 150px;
+        height: 150px;
+    }
+}
