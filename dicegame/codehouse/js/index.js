@@ -33,7 +33,7 @@ function toggleDice() {
     if (playerOne < playerTwo) {
         winner.textContent = "COMPUTER WINS!!!✨✨";
     } else if (playerOne > playerTwo) {
-        winner.textContent = "✨✨YOU WIN!!!";
+        winner.textContent = "✨✨" + name + " WINS!!!";
     } else {
         winner.textContent = "IT'S A TIE!!!"
     }
