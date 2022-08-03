@@ -24,9 +24,9 @@ function toggleDice() {
 
     var winner = document.querySelector("#winnerText");
     if (playerOne < playerTwo) {
-        winner.textContent = "PLAYER TWO WINS!!!";
+        winner.textContent = "COMPUTER WINS!!!✨✨";
     } else if (playerOne > playerTwo) {
-        winner.textContent = "PLAYER ONE WINS!!!";
+        winner.textContent = "✨✨YOU WIN!!!";
     } else {
         winner.textContent = "IT'S A TIE!!!"
     }
